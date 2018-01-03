@@ -1,3 +1,8 @@
+body {
+  text-align: center;
+  background-color: #23daff;
+}
+
 h1 {
   color: blue;
 }
@@ -12,11 +17,18 @@ h1 {
   font-style: italic;
 }
 
-
-.menu_picture {
-  float:left;
+.best {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: bold;
+  color: #f210bd;
 }
 
-.menu_desc {
-  float:left;
+ul {
+  list-style-type: none;
+}
+
+.desc {
+  font-style: italic;
+  font-size: 14px;
 }
