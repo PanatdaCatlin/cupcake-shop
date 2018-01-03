@@ -11,3 +11,12 @@ h1 {
   color: red;
   font-style: italic;
 }
+
+
+.menu_picture {
+  float:left;
+}
+
+.menu_desc {
+  float:left;
+}
