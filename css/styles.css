@@ -1,0 +1,13 @@
+h1 {
+  color: blue;
+}
+
+.bottom {
+  position: fixed;
+  bottom: 0;
+}
+
+.flashy {
+  color: red;
+  font-style: italic;
+}
