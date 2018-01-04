@@ -32,3 +32,16 @@ ul {
   font-style: italic;
   font-size: 14px;
 }
+
+@media screen and (max-width: 750px) {
+body {
+  background-color: white;
+  color: pink;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body {
+  background-color: magenta;
+  }
+}
