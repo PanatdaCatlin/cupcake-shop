@@ -7,9 +7,16 @@ h1 {
   color: blue;
 }
 
+div {
+  border-style: dashed;
+}
+
 .bottom {
   position: fixed;
   bottom: 0;
+  left: 0;
+  background-color: #27d121;
+  width: 100%;
 }
 
 .flashy {
@@ -24,11 +31,35 @@ h1 {
   color: #f210bd;
 }
 
-ul {
-  list-style-type: none;
-}
-
 .desc {
   font-style: italic;
   font-size: 14px;
+}
+
+.menu_item {
+  border-color: green;
+  text-align: left;
+  margin: auto;
+  height: 20px;
+  width: 30%;
+}
+
+.menu_image {
+  float: left;
+  border-color: red;
+  width: 40%;
+}
+
+.menu_text {
+  border-color: blue;
+  float: right;
+  padding-top: 10%;
+  width: 50%;
+  display: table;
+  vertical-align: middle;
+}
+
+.menu_image > img {
+  height: 100px;
+  width: auto;
 }
